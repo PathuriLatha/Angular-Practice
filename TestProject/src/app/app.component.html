@@ -19,21 +19,29 @@
 </ul>
 
 <router-outlet></router-outlet>-->
+<!--
 <div>
   <h1>
     Welcome to {{ title }}!
   </h1>
   <form>
     <h3>Login</h3>
-    <!-- Two Way Binding -->
+    &lt;!&ndash; Two Way Binding &ndash;&gt;
     Username: <input type="text" [(ngModel)]="username" name="username"><br>
     Password: <input type="password" [(ngModel)]="password" name="password"><br>
-    <!-- Event Binding -->
+    &lt;!&ndash; Event Binding &ndash;&gt;
     <button type="submit" value="Login" (click)="CheckLogin()">Login</button><br>
-    <!-- Interpolation Binding  -->
+    &lt;!&ndash; Interpolation Binding  &ndash;&gt;
     <div id="success">{{successMsg}}</div>
-    <!-- Property Binding  -->
+    &lt;!&ndash; Property Binding  &ndash;&gt;
     <div id="error" [innerHTML]="errorMsg"></div>
   </form>
+</div>
+-->
+
+<div>
+  <h4>Multiple Components</h4>
+  <app-india></app-india>
+  <app-usa></app-usa>
 </div>
 

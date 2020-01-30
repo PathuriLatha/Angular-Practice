@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title: string = "TestProject";
+  /* title: string = "TestProject";
   username: string = "";
   password: string = "";
   successMsg: string = "";
@@ -23,5 +23,5 @@ export class AppComponent {
       this.errorMsg = "Invalid Credentials";
       this.successMsg = "";
     }
-  }
+  } */
 }
